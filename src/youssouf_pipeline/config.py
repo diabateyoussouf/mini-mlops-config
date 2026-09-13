@@ -8,7 +8,7 @@ class AppConfig:
     schema_name: str
 
     @classmethod
-    def load(cls, file_path: str, env: str = "dev") -> "AppConfig":
+    def load(cls, file_path: str = "config/project_config_youssouf.yml", env: str = "dev") -> "AppConfig":
         with open(file_path, "r") as f:
             data = yaml.safe_load(f)
 
