@@ -1,0 +1,9 @@
+dev:
+  catalog_name: "spark_catalog"
+  schema_name: "youssouf"
+
+prd:
+  catalog_name: "mlops_dev"
+  schema_name: "youssouf"
+
+app_name: "MiniPipelineYoussouf"
